@@ -17,6 +17,7 @@ RUN apt update && apt install -y \
     iputils-ping \
     less \
     unzip \
+    valgrind \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the default working directory
