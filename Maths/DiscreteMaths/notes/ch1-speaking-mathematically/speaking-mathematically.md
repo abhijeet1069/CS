@@ -99,4 +99,36 @@ f equals g, written f = g, iff, f(x) = g(x) for all x in A
 
 ## The Language of Graphs
 
-dd
+- Loop : An edge with just one endpoint is called a loop (vertex that is an endpoint of loop is adjacent to itself)
+- Parallel : Two or more distinct edges with the same set of endpoints
+- Adjacent : Two vertices that are connected by an edge, or two edges on the same endpoint
+- Isolated : A vertex which has no edges incident 
+
+```yml
+# Cannibal and vegetarian problem as graph problem
+
+vvccB/
+    cc/vvB
+        c/Bvvc
+            ccB/vv
+                /Bccvv
+    vc/vcB
+        vvcB/c
+            c/Bcvv
+                ccB/vv
+                    /Bccvv
+    vv/ccB
+        vvcB/c
+            vc/Bvc
+                vvcB/c
+                    c/Bcvv
+                        ccB/vv
+                            /Bccvv
+    vvc/cB
+
+```
+
+### Degree of a graph
+
+The degree of v, denoted by deg(v) equals the number of edges that are incident on v, with an edge that is a loop 
+counted twice.
