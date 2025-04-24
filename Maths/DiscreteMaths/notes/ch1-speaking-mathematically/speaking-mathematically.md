@@ -132,3 +132,24 @@ vvccB/
 
 The degree of v, denoted by deg(v) equals the number of edges that are incident on v, with an edge that is a loop 
 counted twice.
+
+### Ferryman, Goat, Wolf and Cabbage
+
+FWGC|
+    WC|FG
+        C|FWG
+            FGC|W
+                G|FWC
+                    FG|WC
+                        |FGWC
+        W|FCG
+            FCW|G
+                C|FWG
+
+### Color of a graph
+
+- Graph coloring is NP-complete — so finding the minimum number of colors for a general graph is computationally hard.
+    Example: A complete graph with 5 nodes (K₅) needs 5 colors — because every node connects to every other node.
+
+- But for planar graphs(graphs without any crossing edges) By 4 color theorem, we know 4 is enough to color a graph such
+  that no two adjacent edges have same color.
