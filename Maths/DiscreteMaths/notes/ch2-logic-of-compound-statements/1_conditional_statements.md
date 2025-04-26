@@ -4,7 +4,12 @@
 
 A statement or proposition is a sentence that is true or false but not both.
 
-## Conditional statements
+## Conditional statements (p -> q)
+
+T T T
+T F F
+F T T
+F F T
 
 Consider conditional statements as a promise.
 In logic, an implication p → q is considered false only when p is true and q is false. That’s the only scenario where a 
@@ -27,8 +32,9 @@ P -> Q ≣ ~P v Q
 
 ## Logical Equivalences
 
-Absorption Laws : P v (P ∧ Q) ≣ P  
-                  P ∧ (P v Q) ≣ P
+![Logical Equivalences](./logical_equivalences.png)
+
+Many times logical equivalences lead us nowhere and we should make truth table at that time.
 
 ## Logic in algebra
 
