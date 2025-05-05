@@ -1,0 +1,69 @@
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:52:48
+----------------------------------------
+Hello World
+Execution time: .141522000 seconds
+Execution time: .141522000 seconds
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:53:00
+----------------------------------------
+Hello World
+Execution time: .004730000 seconds
+Execution time: .004730000 seconds
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:53:31
+----------------------------------------
+Hello World
+Execution time: .005069000 seconds
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:53:37
+----------------------------------------
+Hello World
+Execution time: .005088000 seconds
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:55:31
+----------------------------------------
+Hello World
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:56:39
+----------------------------------------
+Hello World
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:57:15
+----------------------------------------
+Hello World
+Execution time: 5 ms
+Execution time: 5 ms
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:57:30
+----------------------------------------
+Hello World
+Execution time: 6 ms
+Execution time: 6 ms
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:58:21
+----------------------------------------
+This log mystery is solved for CExecution time: 2634 ms
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 07:58:41
+----------------------------------------
+This log mystery is solved for C
+Execution time: 689 ms
+
