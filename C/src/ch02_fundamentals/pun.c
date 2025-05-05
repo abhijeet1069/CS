@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("This log mystery is solved for C\n");
+    printf("To C, or not to C: that is the question.\n");
     return 0;
 }

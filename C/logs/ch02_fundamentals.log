@@ -67,3 +67,181 @@ Start:   2025-05-05 07:58:41
 This log mystery is solved for C
 Execution time: 689 ms
 
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 08:00:47
+----------------------------------------
+To C, or not to C: that is the question.
+Execution time: 991 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:31:20
+----------------------------------------
+Dimensions: 12 in x10 in x8 in 
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 768 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:32:12
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 354 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:41:54
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+        0.00 real         0.00 user         0.00 sys
+              999424  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 239  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                   3  involuntary context switches
+            10201756  instructions retired
+             4087450  cycles elapsed
+              786944  peak memory footprint
+Execution time: 10 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:43:58
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 7 ms
+Peak memory usage: 786944 KB
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 08:44:40
+----------------------------------------
+To C, or not to C: that is the question.
+Execution time: 7 ms
+Peak memory usage: 786944 KB
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 08:45:19
+----------------------------------------
+To C, or not to C: that is the question.
+        0.00 real         0.00 user         0.00 sys
+             1130496  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 250  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  11  involuntary context switches
+            10220083  instructions retired
+             4562984  cycles elapsed
+              901696  peak memory footprint
+Execution time: 7 ms
+
+=========================================
+Program: src/ch02_fundamentals/pun.c
+Start:   2025-05-05 08:45:35
+----------------------------------------
+To C, or not to C: that is the question.
+Execution time: 5 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:45:52
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 5 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:52:11
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 385 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:52:23
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 5 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:52:25
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 6 ms
+
+=========================================
+Program: src/ch02_fundamentals/dimensional_weight.c
+Start:   2025-05-05 08:52:30
+----------------------------------------
+Dimensions: 12" x 10" x 8"
+Volume: 960
+Dimensional weight (pounds): 6
+Execution time: 5 ms
+
+=========================================
+Program: src/ch02_fundamentals/farenheit_celsius.c
+Start:   2025-05-05 09:00:01
+----------------------------------------
+Celsius: 38.3
+Execution time: 371 ms
+
+=========================================
+Program: src/ch02_fundamentals/farenheit_celsius.c
+Start:   2025-05-05 09:00:38
+----------------------------------------
+Farenheit: 101.0
+Celsius: 38.3
+Execution time: 2939 ms
+
+=========================================
+Program: src/ch02_fundamentals/farenheit_celsius.c
+Start:   2025-05-05 09:00:49
+----------------------------------------
+Farenheit: 101.0
+Celsius: 38.3
+Execution time: 5 ms
+
+=========================================
+Program: src/ch02_fundamentals/farenheit_celsius.c
+Start:   2025-05-05 09:00:52
+----------------------------------------
+Farenheit: 101.0
+Celsius: 38.3
+Execution time: 5 ms
+
