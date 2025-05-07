@@ -245,3 +245,106 @@ Farenheit: 101.0
 Celsius: 38.3
 Execution time: 5 ms
 
+=========================================
+Program: src/ch02_fundamentals/hello_world.c
+Start:   2025-05-07 07:17:11
+----------------------------------------
+hello, world
+Execution time: 403 ms
+
+=========================================
+Program: src/ch02_fundamentals/horners_rule.c
+Start:   2025-05-07 07:54:01
+----------------------------------------
+F(2) = 92
+Execution time: 3147 ms
+
+=========================================
+Program: src/ch02_fundamentals/horners_rule.c
+Start:   2025-05-07 07:57:56
+----------------------------------------
+F(5) = 10004
+Execution time: 146 ms
+
+=========================================
+Program: src/ch02_fundamentals/bills_greedy.c
+Start:   2025-05-07 08:13:29
+----------------------------------------
+Amount = 93Rs 4 bills: 13
+Rs 1 bills: 3
+Rs 0 bills: 3
+Rs 3 bills: 0
+Execution time: 574 ms
+
+=========================================
+Program: src/ch02_fundamentals/bills_greedy.c
+Start:   2025-05-07 08:13:47
+----------------------------------------
+Amount = 93
+Rs 4 bills: 13
+Rs 1 bills: 3
+Rs 0 bills: 3
+Rs 3 bills: 0
+Execution time: 1149 ms
+
+=========================================
+Program: src/ch02_fundamentals/bills_greedy.c
+Start:   2025-05-07 08:14:23
+----------------------------------------
+Amount = 93
+Rs 20 bills: 4
+Rs 10 bills: 1
+Rs 5 bills: 0
+Rs 1 bills: 3
+Execution time: 689 ms
+
+=========================================
+Program: src/ch02_fundamentals/bills_greedy.c
+Start:   2025-05-07 08:14:58
+----------------------------------------
+Amount = 93
+Rs 20 bills: 4
+Rs 10 bills: 1
+Rs 5 bills: 0
+Rs 1 bills: 3
+Execution time: 5 ms
+
+=========================================
+Program: src/ch02_fundamentals/bills_greedy.c
+Start:   2025-05-07 08:15:44
+----------------------------------------
+Amount = 5053
+Rs 500 bills: 10
+Rs 100 bills: 0
+Rs 20 bills: 2
+Rs 10 bills: 1
+Rs 5 bills: 0
+Rs 1 bills: 3
+Execution time: 3135 ms
+
+=========================================
+Program: src/ch02_fundamentals/bills_greedy.c
+Start:   2025-05-07 08:16:26
+----------------------------------------
+Amount = 5053
+Rs 500 notes: 10
+Rs 100 notes: 0
+Rs 20 notes: 2
+Rs 10 notes: 1
+Rs 5 notes: 0
+Rs 1 notes: 3
+Execution time: 141 ms
+
+=========================================
+Program: src/ch02_fundamentals/bills_greedy.c
+Start:   2025-05-07 08:16:46
+----------------------------------------
+Amount = Rs 5053
+Rs 500 notes: 10
+Rs 100 notes: 0
+Rs 20 notes: 2
+Rs 10 notes: 1
+Rs 5 notes: 0
+Rs 1 notes: 3
+Execution time: 294 ms
+

@@ -1,0 +1,21 @@
+=========================================
+Program: src/ch03_formattedIO/add_fraction.c
+Start:   2025-05-07 09:10:03
+----------------------------------------
+Enter first fraction: Enter second fraction: Sum: 16/2Execution time: 12096 ms
+
+=========================================
+Program: src/ch03_formattedIO/swap_2_num.c
+Start:   2025-05-07 09:22:00
+----------------------------------------
+a = 10, b = 5
+Execution time: 391 ms
+
+=========================================
+Program: src/ch03_formattedIO/swap_2_num.c
+Start:   2025-05-07 09:22:18
+----------------------------------------
+a = 5, b = 10
+a = 10, b = 5
+Execution time: 325 ms
+
