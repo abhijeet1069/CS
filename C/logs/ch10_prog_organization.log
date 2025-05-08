@@ -1,0 +1,36 @@
+=========================================
+Program: src/ch10_prog_organization/hello.c
+Start:   2025-05-08 08:21:23
+----------------------------------------
+Let's start advance CExecution time: 395 ms
+
+=========================================
+Program: src/ch10_prog_organization/hello.c
+Start:   2025-05-08 08:21:55
+----------------------------------------
+Let's start advance C
+Execution time: 2658 ms
+
+=========================================
+Program: src/ch10_prog_organization/static_var.c
+Start:   2025-05-08 08:41:08
+----------------------------------------
+Count: 1
+Count: 2
+Count: 3
+Execution time: 376 ms
+
+=========================================
+Program: src/ch10_prog_organization/extern_var.c
+Start:   2025-05-08 08:52:40
+----------------------------------------
+Counter: 1
+Execution time: 381 ms
+
+=========================================
+Program: src/ch10_prog_organization/extern_var.c
+Start:   2025-05-08 08:52:59
+----------------------------------------
+Counter: 1
+Execution time: 2866 ms
+
