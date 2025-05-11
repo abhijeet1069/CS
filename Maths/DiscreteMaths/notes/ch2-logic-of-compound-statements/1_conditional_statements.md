@@ -47,8 +47,8 @@ The converse and inverse of a conditional statement are logically equivalent to 
 
 ## Tautology and Contradiction
 
-Tautology -> All true
-Contradiction -> All false
+- Tautology -> All true
+- Contradiction -> All false
 
 ## Caution
 
