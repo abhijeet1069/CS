@@ -37,16 +37,6 @@ P <-> Q ≣ (~P v Q) ∧ (~Q v P)
 
 Many times logical equivalences lead us nowhere and we should make truth table at that time.
 
-## Logic in algebra
-
-P : 0 < x
-Q : x < 3
-R : x = 3
-
-- x <= 3 : Q ∨ R
-- 0 < x < 3 : P ∧ Q
-- 0 < x <= 3 : P ∧ (Q ∨ R) 
-
 ## Converse, Inverse, Contrapositive
 
 - Contrapositive of p -> q = ~q -> ~p, which is equivalent
