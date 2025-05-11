@@ -8,18 +8,18 @@ quantifiers as being performed in the order in which the quantifiers occur.
 
 Also, for P(x,y) you are not allowed to change your x once you have specified it initially.
 
-![Multiple Quantifiers](./multiple_quantifiers.png)
+![Multiple Quantifiers](./res/multiple_quantifiers.png)
 
 ## Negations of statements with two different quantifiers
 
-![Negation of multiple quantifier](./negation_of_mult_quant.png)
+![Negation of multiple quantifier](./res/negation_of_mult_quant.png)
 
 In a statement containing both ∀ and ∃, changing the order of the quantifiers can
 significantly change the meaning of the statement.
 
 ## Logical Notation
 
-![Logical Notation](./logical_notation.png)
+![Logical Notation](./res/logical_notation.png)
 
 We wish to say: "Everyone takes the course if they are a student-in-the-class". 
 That is the implication ∀𝑥 (𝑆(𝑥)→𝑅(𝑥))
@@ -33,7 +33,3 @@ whether 𝑅(𝑥) is true or false.
 
 ## Unique Quantifier (∃!)
 ∃!xP(x) ≣ ∃x ⟃ D [P(x) ∧ ∀y ⟃ D(P(y) -> x=y)]
-
-## Prolog
-
-Installed SWI prolog, see prolog folder for more examples

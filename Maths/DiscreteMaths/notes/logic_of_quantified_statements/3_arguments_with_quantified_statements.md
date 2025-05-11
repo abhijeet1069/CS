@@ -36,7 +36,7 @@ Therefore, ∀x P(x) -> R(x)
 All integers are rational numbers.
 ∀ integer n, n is a rational number.
 
-![test_validity](./test_validity.png)
+![test_validity](./res/test_validity.png)
 
 ## Diagram to show invalidity
 
@@ -47,7 +47,7 @@ Therefore, Felix is a human being.
 Below diagram shows that the logic is wrong.
 Below example is also the form of converse error.
 
-![test_invalidity](./test_invalidity.png)
+![test_invalidity](./res/test_invalidity.png)
 
 ## Converse Error (Affirming the consequent)
 

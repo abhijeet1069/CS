@@ -33,7 +33,7 @@ P <-> Q ≣ (~P v Q) ∧ (~Q v P)
 
 ## Logical Equivalences
 
-![Logical Equivalences](./logical_equivalences.png)
+![Logical Equivalences](./res/logical_equivalences.png)
 
 Many times logical equivalences lead us nowhere and we should make truth table at that time.
 
