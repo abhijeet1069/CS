@@ -21,6 +21,7 @@ So, the implication still holds true.
 It’s only a lie (false) if I win the lottery (p = T) but don’t buy you a car (q = F).
 
 P -> Q ≣ ~P v Q 
+P <-> Q ≣ (~P v Q) ∧ (~Q v P) 
 
 ## Normal language to Discrete Maths notation
 

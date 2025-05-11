@@ -11,12 +11,14 @@ argument is valid means that its form is valid.
  - A row of the truth table in which all the premises are true is called a critical row.
     If the conclusion in every critical row is true, then the argument is valid else invalid
 
+![Rules of Inference](./inference_truth_table.png)
+
 ## Syllogism
 
 An argument form consisting of two premises and a conclusion is called a syllogism.
 The first and second premises are called the major premise and minor premise.
 
-![Rules of Inference](rules_of_inference.png "Rules of Inference")
+![Rules of Inference](rules_of_inference.png)
 
 ## Fallacies
 
