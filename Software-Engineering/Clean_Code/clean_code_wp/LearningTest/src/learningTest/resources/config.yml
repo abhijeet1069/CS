@@ -1,0 +1,10 @@
+server:
+  IP : "192.169.29.20"
+  port: 8080
+  name: "MyApp"
+
+database:
+  host: "localhost"
+  port: 5432
+
+

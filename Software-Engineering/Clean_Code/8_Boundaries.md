@@ -17,8 +17,14 @@ void testBasicSerialization() throws JsonProcessingException {
     String json = mapper.writeValueAsString(user);
     assertEquals("{\"name\":\"Alice\",\"age\":30}", json);
 }
-
 ```
+### Lifecycle of change
+
+TDD has an ama
+Here’s the ideal lifecycle of change when dealing with third-party code or unknown behavior:	
+- Learning Test	 : Understand the lib
+- Production Test :	Define your need
+- Production Code :	Fulfill that need
 
 ## Use code that does not yet exist
 
