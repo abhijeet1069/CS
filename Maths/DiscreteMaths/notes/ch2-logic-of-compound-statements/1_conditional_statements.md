@@ -6,11 +6,6 @@ A statement or proposition is a sentence that is true or false but not both.
 
 ## Conditional statements (p -> q)
 
-T T T
-T F F
-F T T
-F F T
-
 Consider conditional statements as a promise.
 In logic, an implication p → q is considered false only when p is true and q is false. That’s the only scenario where a 
 promise is broken.
