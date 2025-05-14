@@ -6,25 +6,19 @@ Not only are learning tests free, they have a positive return on investment. Whe
 are new releases of the third-party package, we run the learning tests to see whether there
 are behavioral differences.
 
+Below code is a good example of a learning test, doesen't assert anything. For logging I used the logback
+framework, but tomorrow suppose some critical vulnerability comes up and I need to migrate to Log4J. This
+test will help me in testing the API, before shipping to prod.
+
 ```java
-
-// Suppose I want to learn Java Jackson library. I can write below test to check.
-// This is a very good tip, even learning effort will not be wasted.
+ // a simple learning test for logging
 @Test
-void testBasicSerialization() throws JsonProcessingException {
-    ObjectMapper mapper = new ObjectMapper();
-    User user = new User("Alice", 30);
-    String json = mapper.writeValueAsString(user);
-    assertEquals("{\"name\":\"Alice\",\"age\":30}", json);
+    public void isLogGenerating(){
+        LogUtil.logInfo("Tests executed");
+    }
 }
-```
-### Lifecycle of change
 
-TDD has an ama
-Here’s the ideal lifecycle of change when dealing with third-party code or unknown behavior:	
-- Learning Test	 : Understand the lib
-- Production Test :	Define your need
-- Production Code :	Fulfill that need
+```
 
 ## Use code that does not yet exist
 

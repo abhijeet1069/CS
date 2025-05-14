@@ -1,0 +1,75 @@
+package com.satyam.learningTest.util;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LogUtil {
+    private static final Logger logger = LoggerFactory.getLogger(LogUtil.class);
+
+    private static final int LOCATION_WIDTH = 45; // total width of class + method
+
+    
+
+    public static void logError(Exception e) {
+        String errorMsg = String.format("[%s] %s", e.getClass().getSimpleName(), e.getMessage());
+        logger.error("{} : {}", formatLocation(), errorMsg);
+    }
+    
+    public static void logErrorDetails(Exception e) {
+    	logError(e);
+        for (StackTraceElement element : e.getStackTrace()) {
+            logger.error("    at {}", element.toString());
+        }	
+    }
+
+    public static void logInfo(String msg) {
+        logger.info("{} : {}", formatLocation(), msg);
+    }
+    
+    private static String formatLocation() {
+        StackTraceElement caller = Thread.currentThread().getStackTrace()[3];
+        String className = caller.getClassName();
+        String methodName = caller.getMethodName() + "()";
+        String methodSignature = shorten(className + "." + methodName);
+        return String.format("%-" + LOCATION_WIDTH + "s", methodSignature); // pad whole block
+    }
+
+    private static String shorten(String fullName) {
+        // Example input: tester.TestYAMLConfigServiceUnHappyCase.loadWhenFileNotFound()
+        if (fullName == null || !fullName.contains(".")) return fullName;
+
+        int lastDot = fullName.lastIndexOf('.');
+        String classPath = fullName.substring(0, lastDot);  // "tester.TestYAMLConfigServiceUnHappyCase"
+        String methodName = fullName.substring(lastDot + 1); // "loadWhenFileNotFound"
+
+        String[] parts = classPath.split("\\.");
+        StringBuilder sb = new StringBuilder();
+
+        // Abbreviate all packages
+        for (int i = 0; i < parts.length - 1; i++) {
+            if (!parts[i].isEmpty()) {
+                sb.append(parts[i].charAt(0)).append('.');
+            }
+        }
+
+        // Abbreviate class name to uppercase initials if it's long (>25 chars)
+        String className = parts[parts.length - 1];
+        if (className.length() > 25) {
+            sb.append(acronym(className));
+        } else {
+            sb.append(className);
+        }
+
+        sb.append('.').append(methodName);
+        return sb.toString();
+    }
+
+    private static String acronym(String s) {
+        StringBuilder abbr = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (Character.isUpperCase(ch)) abbr.append(ch);
+        }
+        return abbr.length() > 1 ? abbr.toString() : s;
+    }
+}
