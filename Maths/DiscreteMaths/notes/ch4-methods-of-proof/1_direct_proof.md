@@ -24,6 +24,23 @@ n is composite <=> ∃ positive integers r and s, if n = rs
 
 An integer n is called a perfect square iff, n = k^2 for some integer k
 
+### Rational numbers
+
+A real number r is rational iff it can be expressed as a quotient of 2 integers with a nonzero denominator. A real
+number that is not rational is irrational.
+More formally,
+    r is rational <=> ∃ integers a and b such that r = a/b and b ≠ 0
+
+$$
+\text{Is } 0.121212\ldots \text{ a rational number?} \\
+Solution: \\
+x = 0.1212.... \\
+\text{Then } 100x = 12.121212\ldots \\
+100x - x = 12.1212\ldots - 0.1212\ldots \\
+99x = 12 \\
+x = \frac{12}{99}
+$$
+
 ## Proving existential generalization (Existential Generalization)
 
 ∃x ∈ D such that Q(x) is true iff,
@@ -51,4 +68,3 @@ element of the set, and show that x satisfies the property.
 
 If the existence of a certain kind of object is assumed or has been deduced, then it can be given a name, as long as
 that name is not currently being used to refer something else in the same discussion.
-

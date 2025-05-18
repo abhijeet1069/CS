@@ -1,4 +1,12 @@
-def is_prime(n):
+def main():
+    
+    for num in range(2,1000):
+        res = poly(num)
+        if(not isPrime(res)):
+            print(f"{num} {res}")
+            
+
+def isPrime(n):
     if n <= 1:
         return False
     if n <= 3:
@@ -16,11 +24,6 @@ def is_prime(n):
     return True
 
 def poly(n):
-    return 2*(n**2) - 5*n + 2
-
-def main():
-    for i in range(1,20):
-        num = poly(i)
-        print(f"n = {i}, isPrime({num}) =  {is_prime(num)}")
+    return 2**(2*n) + 1
 
 main()
