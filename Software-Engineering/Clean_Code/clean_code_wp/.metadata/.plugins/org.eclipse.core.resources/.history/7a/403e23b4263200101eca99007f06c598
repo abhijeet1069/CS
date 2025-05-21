@@ -1,0 +1,21 @@
+package com.satyam.interfacesAsTypes.animalPOJO;
+
+import com.satyam.interfacesAsTypes.animalTypes.Bird;
+
+public class Ostrich implements Bird{
+
+	@Override
+	public String getName() {
+		return "Ostrich";
+	}
+
+	@Override
+	public String fact() {
+		return "Ostrich are the largest bird in the world";
+	}
+
+	@Override
+	public String toString() {
+		return "Elephant [Name= " + getName() + ", Fact= " + fact() + "]";
+	}
+}

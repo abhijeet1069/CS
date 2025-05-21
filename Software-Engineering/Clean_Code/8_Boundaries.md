@@ -20,32 +20,68 @@ test will help me in testing the API, before shipping to prod.
 
 ```
 
-## Use code that does not yet exist
+## Adapter Pattern
 
-The ADAPTER encapsulated the interaction with the API and provides a single place to change when the API evolves.
+The Adapter Pattern is like a translator between incompatible interfaces, allowing two otherwise incompatible classes to work together 
+seamlessly — all without modifying their existing code.
 
-Use an abstraction when...
-- You might switch libraries
-	e.g., Jackson ↔ Gson, or SQL database ↔ NoSQL
+How it works
 
-- The external API is unstable or complicated
-	Wrapping protects your app from breaking changes
+- Client code calls methods on the target interface.
+- The adapter implements the target interface.
+- Inside the adapter, it converts (adapts) the calls to the methods of the adaptee, which actually does the work.
+- The adapter returns results (if any) back to the client in the expected format.
 
-- You want to write learning tests
-	Learning tests isolate and validate your expectations
+## Inversion of Control
 
-- You're building reusable or core business logic
-	Decoupling makes testing and reuse easier
 
-- You want to limit the "blast radius"
-	Wrapping keeps third-party failures contained
+```C
 
-Skip the wrapper when...
-- The library is extremely stable and simple
-	e.g., java.util.List, SLF4J logging, commons-lang StringUtils
-	
-- You're using it in one tiny place only
-	Extra layers might just add noise
-	
-- It’s just glue code or infrastructure
-	Sometimes it’s okay to be pragmatic in throwaway scripts or one-off tools
+//the client has no option to change, it will have to read from keyboard and write to printer
+//Adding new devices will cause copy to fan out
+
+void copy(){
+	int c;
+	while((c = readKeyboard) != EOF){
+		writePrinter(c);
+	}
+}
+
+// Inversion of control : Read from STDIN and write to STDOUT
+// STDIN can be anything a keyboard, internet device etc
+// STDOUT could be anything a printer, screen etc
+
+void copy(){
+	int c;
+	while((c = getchar()) != EOF){
+		putchar(c);
+	}
+}
+```
+
+```java
+//OO version
+
+public interface Reader{
+	char getchar();
+}
+
+public interface Writer{
+	char putchar();
+}
+
+void copy(Reader reader, Writer writer){
+	int c;
+	while((c = reader.getchar()) != EOF){
+		writer.putchar(c);
+	}
+}
+
+public Keyboard implements Reader{...}
+public Printer implements Writer{...}
+
+```
+
+![Dependency Inversion](./img/dependency_inversion.png)
+
+![copy will fan out](./img/anti_pattern.png)

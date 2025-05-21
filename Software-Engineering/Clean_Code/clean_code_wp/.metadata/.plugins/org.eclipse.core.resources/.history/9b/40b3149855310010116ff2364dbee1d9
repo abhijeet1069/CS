@@ -1,0 +1,17 @@
+package com.satyam;
+
+public class MediaAdapter implements MediaPlayer{
+
+	private AdvancedMediaPlayer advancedMediaPlayer;
+	
+	public MediaAdapter() {
+		advancedMediaPlayer = new A
+	}
+	
+	@Override
+	public void play(String audioType, String fileName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

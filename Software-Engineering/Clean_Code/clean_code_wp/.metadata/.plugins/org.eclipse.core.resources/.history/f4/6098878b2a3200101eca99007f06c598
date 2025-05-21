@@ -1,0 +1,14 @@
+package com.satyam.creationalPatterns.builder;
+
+public class Computer {
+    private String CPU;
+    private int RAM;
+    private int storage;
+    private boolean hasGraphicsCard;
+
+    private Computer(Builder builder) {
+        this.CPU = builder.CPU;
+        this.RAM = builder.RAM;
+        this.storage = builder.storage;
+        this.hasGraphicsCard = builder.hasGraphicsCard;
+    }

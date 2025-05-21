@@ -1,0 +1,12 @@
+package com.satyam.interfacesAsTypes;
+
+import com.satyam.interfacesAsTypes.animalPOJO.PufferFish;
+
+public class Main {
+	public static void main(String[] args) {
+		Zoo zoo = new Zoo();
+		zoo.addFish(new PufferFish());
+		zoo.addMammal(new Elephant());
+		zoo.showZoo();
+	}
+}

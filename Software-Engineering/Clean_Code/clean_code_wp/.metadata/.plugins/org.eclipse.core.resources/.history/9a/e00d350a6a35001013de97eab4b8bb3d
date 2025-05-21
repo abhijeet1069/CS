@@ -1,0 +1,11 @@
+# Prototype Design Pattern
+
+The Prototype Design Pattern is a creational design pattern used when the cost of creating a new object is expensive or complex. It allows you to create new objects by copying an existing object, known as the prototype, instead of creating a new instance from scratch.
+
+## Structure
+
+Prototype (interface or abstract class) – Declares a clone() method.
+
+ConcretePrototype – Implements the clone() method.
+
+Client – Uses the clone() method to create a new object.

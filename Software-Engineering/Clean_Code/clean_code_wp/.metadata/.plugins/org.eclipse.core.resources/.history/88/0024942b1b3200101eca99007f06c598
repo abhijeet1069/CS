@@ -1,0 +1,4 @@
+# Factory Method
+
+Use a factory method when object creation is complex, dynamic, or repeated across many places.
+Avoid it when your use case is simple and static.

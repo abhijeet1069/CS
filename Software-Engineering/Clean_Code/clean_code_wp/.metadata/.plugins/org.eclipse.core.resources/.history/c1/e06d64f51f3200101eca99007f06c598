@@ -1,0 +1,5 @@
+package com.satyam.factoryMethod;
+
+public interface Vehicle {
+	void start();
+}

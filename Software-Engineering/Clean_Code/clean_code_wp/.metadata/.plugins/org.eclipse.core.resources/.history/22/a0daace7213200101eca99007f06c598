@@ -1,0 +1,18 @@
+package com.satyam.interfacesAsTypes.animalPOJO;
+
+import com.satyam.interfacesAsTypes.animalTypes.Bird;
+import com.satyam.interfacesAsTypes.animalTypes.Mammal;
+
+public class Elephant implements Mammal{
+
+	@Override
+	public String getName() {
+		return "Ostrich";
+	}
+
+	@Override
+	public String fact() {
+		return "Ostrich are the largest bird in the world";
+	}
+
+}

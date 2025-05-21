@@ -1,0 +1,6 @@
+package com.satyam.interfacesAsTypes;
+
+public class Main {
+	Zoo zoo = new Zoo();
+	zoo.addFish(new PufferFish();
+}

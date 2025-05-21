@@ -1,0 +1,7 @@
+package com.satyam.interfacesAsTypes;
+
+public interface Mammal {
+	public String TYPE = "FISH";
+	public String getName();
+	public String fact();
+}

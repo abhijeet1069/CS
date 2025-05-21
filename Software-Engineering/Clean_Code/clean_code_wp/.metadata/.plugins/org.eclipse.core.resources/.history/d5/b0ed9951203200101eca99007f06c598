@@ -1,0 +1,9 @@
+package com.satyam.interfacesAsTypes;
+
+import java.util.List;
+
+public class Zoo {
+	List<Bird> birds;
+	List<Fish> fishes;
+	List<Mammal> mammal;
+}

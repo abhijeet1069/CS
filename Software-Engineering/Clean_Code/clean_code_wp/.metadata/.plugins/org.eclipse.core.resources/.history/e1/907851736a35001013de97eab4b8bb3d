@@ -1,0 +1,12 @@
+package com.satyam.creationalPatterns.prototype;
+
+public class Circle implements Prototype{
+	int radius;
+	String color;
+	
+	Circle(int radius, String color){
+		this.radius = radius;
+		this.color = color;
+	}
+	
+}

@@ -1,0 +1,18 @@
+package com.satyam.interfacesAsTypes.animalPOJO;
+
+import com.satyam.interfacesAsTypes.animalTypes.Fish;
+
+public class PufferFish implements Fish{
+
+	@Override
+	public String getName() {
+		return "Puffer Fish";
+	}
+
+	@Override
+	public String fact() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,10 @@
+org.opentest4j.AssertionFailedError: Expected com.satyam.learningTest.util.ConfigLoadException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at tester.TestYAMLConfigServiceUnHappyCase.loadWhenFileSyntaxIsIncorrect(TestYAMLConfigServiceUnHappyCase.java:73)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+

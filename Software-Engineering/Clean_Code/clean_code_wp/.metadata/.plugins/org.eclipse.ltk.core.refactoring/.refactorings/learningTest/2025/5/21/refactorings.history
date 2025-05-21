@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;logback.xml&apos; to &apos;aspects/src/main/java/resources&apos;&#x0D;&#x0A;- Original project: &apos;learningTest&apos;&#x0D;&#x0A;- Destination element: &apos;aspects/src/main/java/resources&apos;&#x0D;&#x0A;- Original element: &apos;logback.xml&apos;" description="Copy file" destination="=aspects/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;resources" element1="src/main/resources/logback.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1747823233346" units="0" version="1.0"/>
+</session>

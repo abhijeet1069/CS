@@ -1,0 +1,5 @@
+package com.satyam.interfacesAsTypes;
+
+public interface Fish {
+
+}

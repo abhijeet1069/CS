@@ -1,0 +1,7 @@
+package com.satyam.interfacesAsTypes.animalTypes;
+
+public interface Mammal extends Animal{
+	public String TYPE = "MAMMAL";
+	public String getName();
+	public String fact();
+}
