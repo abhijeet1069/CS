@@ -32,28 +32,6 @@ Two’s complement partitions the number line into two halves:
 - Add 1 in binary notation
 - Convert to decimal and add the -ve sign
 
-## Hexadecimal notation
-
-Hexadecimal notation is even more compact than decimal notation.
-
-Decimal     Hexadecimal     4-Bit Binary Equivalent
-0               0                   0000
-1               1                   0001
-2               2                   0010
-3               3                   0011
-4               4                   0100
-5               5                   0101
-6               6                   0110
-7               7                   0111
-8               8                   1000
-9               9                   1001
-10              A                   1010
-11              B                   1011
-12              C                   1100
-13              D                   1101
-14              E                   1110
-15              F                   1111
-
 ## NAND and NOR gates
 
 Any Boolean expression is equivalent to one written entirely with Sheffer strokes or entirely with Peirce arrows.
