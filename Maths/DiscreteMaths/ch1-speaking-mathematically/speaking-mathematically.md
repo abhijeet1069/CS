@@ -104,6 +104,13 @@ f equals g, written f = g, iff, f(x) = g(x) for all x in A
 - Adjacent : Two vertices that are connected by an edge, or two edges on the same endpoint
 - Isolated : A vertex which has no edges incident 
 
+### Degree of a graph
+
+The degree of v, denoted by deg(v) equals the number of edges that are incident on v, with an edge that is a loop 
+counted twice.
+
+## Good Problems
+
 ```yml
 # Cannibal and vegetarian problem as graph problem
 
@@ -128,10 +135,7 @@ vvccB/
 
 ```
 
-### Degree of a graph
 
-The degree of v, denoted by deg(v) equals the number of edges that are incident on v, with an edge that is a loop 
-counted twice.
 
 ### Ferryman, Goat, Wolf and Cabbage
 
