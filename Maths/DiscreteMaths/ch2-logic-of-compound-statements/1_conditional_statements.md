@@ -53,3 +53,12 @@ technically valid but meaningless or even misleading.
 
 This is an F->T ≣ T statement, But the conclusion has nothing to do with the premise. Yet, logic says the implication 
 is true, just because the premise is false. This is logically correct, but completely useless in real-world reasoning.
+
+Logic isn't about truth - it's about structure. If we fit true premises in the right logical structure then conclusion
+is self evident.
+
+In practice,
+
+- Use logic for structure
+- Use truth for substance
+- Use relevance for usefulness
