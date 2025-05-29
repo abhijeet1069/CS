@@ -1,4 +1,4 @@
-package javaLang.staticMemory;
+package staticMemory;
 
 public class Main {
     public static void main(String[] args) {

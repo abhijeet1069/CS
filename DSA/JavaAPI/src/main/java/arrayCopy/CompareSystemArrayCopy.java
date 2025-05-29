@@ -1,4 +1,4 @@
-package javaLang.arrayCopy;
+package arrayCopy;
 
 public class CompareSystemArrayCopy {
 
