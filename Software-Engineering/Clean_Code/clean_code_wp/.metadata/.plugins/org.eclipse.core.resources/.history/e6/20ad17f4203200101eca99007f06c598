@@ -1,7 +1,0 @@
-package com.satyam.interfacesAsTypes;
-
-public interface Mammal {
-	public String TYPE = "MAMMAL";
-	public String getName();
-	public String fact();
-}

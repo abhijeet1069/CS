@@ -1,7 +1,0 @@
-package com.satyam.interfacesAsTypes.animalPOJO;
-
-import com.satyam.interfacesAsTypes.animalTypes.Fish;
-
-public class Salmon implements Fish{
-
-}

@@ -8,7 +8,13 @@ A class can be typically 200 lines long, with an upper limit of 500.
 
 ## Variable declaration
 
-Variables should be declared as close to their usage as possible.
+Declare variables as close as possible to their first use.
+
+- It improves readability: when you encounter the variable declaration, you immediately 
+	see why it's being created.
+
+- It reduces the scope of the variable to the minimum necessary, making the code easier to 
+	reason about and less prone to bugs.
 
 ## Instance variables
 

@@ -1,0 +1,15 @@
+04-06-2025 12:12:59.636 ERROR [main] - TestYAMLConfigServiceUnHappyCase.loadWhenFileNotFound() : [ConfigLoadException] File not found at path: /non_existent_config.yml
+04-06-2025 12:12:59.655 ERROR [main] - TestYAMLConfigServiceUnHappyCase.loadWhenFileIsNull() : [ConfigLoadException] Configuration path must not be null
+04-06-2025 12:12:59.658 ERROR [main] - TestYAMLConfigServiceUnHappyCase.loadWhenFileIsEmpty1() : [ConfigLoadException] Configuration path must not be empty
+04-06-2025 12:12:59.661 ERROR [main] - TestYAMLConfigServiceUnHappyCase.loadWhenFileIsEmpty2() : [ConfigLoadException] Configuration path must not be empty
+04-06-2025 12:12:59.665 ERROR [main] - TestYAMLConfigServiceUnHappyCase.loadWhenFileIsAmbiguous() : [ConfigLoadException] File not found at path: $$
+04-06-2025 12:12:59.689 ERROR [main] - TestYAMLConfigServiceUnHappyCase.loadWhenFileSyntaxIsIncorrect() : [ConfigLoadException] YAML syntax error in file: /bad_config.yml at line 2, column 3: Cannot create property=port@ for JavaBean=com.satyam.learningTest.pojo.Server@157853da
+ in 'reader', line 2, column 3:
+      IP: "192.169.29.20"
+      ^
+Unable to find property 'port@' on class: com.satyam.learningTest.pojo.Server
+ in 'reader', line 3, column 10:
+      port@: 8080
+             ^
+
+04-06-2025 12:12:59.692 INFO  [main] - TestLog4J.isLogGenerating()                   : Tests executed

@@ -37,7 +37,8 @@ in a class of their own).
 
 ## Have no side effects
 
-Side effects are lies. Your function promises to do one thing, but it also does other hidden things. It also Single responsibility principle.
+Side effects are lies. Your function promises to do one thing, but it also does other hidden things. It also violates the 
+Single responsibility principle.
 
 ```java
 public class UserValidator {
@@ -134,15 +135,9 @@ that such rules provide significant benefit.
 
 ## Conclusion
 
-Writing software is like any other kind of writing. When you write a paper or an article, you get your thoughts down first, 
-then you massage it until it reads well. The first draft might be clumsy and disorganized, so you wordsmith it and 
-restructure it and refine it until it reads the way you want it to read.
-	When I write functions, they come out long and complicated. They have lots of indenting and nested loops. They have long 
-argument lists. The names are arbitrary, and there is duplicated code. But I also have a suite of unit tests that cover every one of those
-clumsy lines of code.
-	So then I massage and refine that code, splitting out functions, changing names, eliminating duplication. I shrink the methods and reorder 
-them. Sometimes I break out whole classes, all the while keeping the tests passing. In the end, I wind up with functions that follow the rules 
-I’ve laid down in this chapter. I don’t write them that way to start. I don’t think anyone could.
+- Write the code.
+- Test the code.
+- Refactor the code.
 
 Every system is built from a domain-specific language designed by the programmers to describe that system. 
 Functions are the verbs of that language, and classes are the nouns.

@@ -1,5 +1,0 @@
-package com.satyam.abstractFactory;
-
-public interface Checkbox {
-    void paint();
-}

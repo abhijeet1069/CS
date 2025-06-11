@@ -32,6 +32,22 @@ code, then you may find the production code to be hard to test. You may decide t
 production code is too hard to test. You may not design the production code to be testable.
 
 
+## Testing Pyramid
+
+-  Manual Tests : These are tests which couldn't be automated, but we should reduce this else each release
+		will take lot of time.
+
+- End to End Tests : Here we test the entire application, and see that the application is meeting
+	business requirements. These tests can include performance testing, regression testing and security testing
+		(These take the longest time)
+
+- Integration Tests : Integrate components and test
+	We don't test the entire application but only the various integration
+
+- Component Tests : Test each component individually like frontend or backend
+	For example, mocking database to verify the happy and unhappy paths of your application
+
+- Unit Tests : Base of the pyramid containing most tests
 
 ## Use Test Driven Development
 

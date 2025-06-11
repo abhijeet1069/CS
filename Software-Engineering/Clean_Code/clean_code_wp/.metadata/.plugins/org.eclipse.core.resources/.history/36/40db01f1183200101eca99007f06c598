@@ -1,8 +1,0 @@
-# Factory Method
-
-✅ When to Use Factory Method
-When object creation should be deferred to subclasses.
-
-When you want to remove tight coupling between code and concrete classes.
-
-When you expect the class to evolve and support multiple product types.

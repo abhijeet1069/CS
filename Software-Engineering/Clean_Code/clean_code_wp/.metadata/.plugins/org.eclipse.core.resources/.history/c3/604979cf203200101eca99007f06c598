@@ -1,7 +1,0 @@
-package com.satyam.interfacesAsTypes;
-
-public interface Fish {
-	public String TYPE = "BIRD";
-	public String getName();
-	public String fact();
-}

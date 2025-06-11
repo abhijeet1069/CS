@@ -1,5 +1,0 @@
-package com.satyam.creationalPatterns.builder;
-
-public class Computer {
-
-}

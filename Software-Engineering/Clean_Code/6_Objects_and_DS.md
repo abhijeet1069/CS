@@ -6,9 +6,9 @@ or an impulse. Why, then, do so many programmers automatically add getters and s
 to their objects, exposing their private variables as if they were public?
 
 
-## Law of Demeter
+## Law of Demeter (LoD)
 
-The Law of Demeter (LoD), also called the principle of least knowledge, is a design guideline for building 
+The Law of Demeter, also called the principle of least knowledge, is a design guideline for building 
 more maintainable and loosely coupled object-oriented code.
 
 - A method can call:
@@ -129,7 +129,7 @@ public class Main {
 
 ## Don't put business logic into your data Structures
 
-- Treat the Active Record as just a data holder.
+- Treat the Active Record, POJO as just a data holder.
 - Put business rules in domain services or value objects.
 
 ```java

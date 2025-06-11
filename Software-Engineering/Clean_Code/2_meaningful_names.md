@@ -1,12 +1,5 @@
 # Clean Code by Robert Cecil Martin
 
-Learning to write clean code is hard work. It requires more than just the knowledge 
-of principles and patterns. You must sweat  over it. You must practice it yourself, 
-and watch yourself fail. You must watch others practice it and fail. You must see them 
-stumble and retrace their steps. You must see them agonize over decisions and see the 
-price they pay for making those decisions the wrong way. 
-	Be prepared to work hard while reading this book.
-	
 For coding, ratio of time spent reading vs. writing is well over 10:1.
 
 ## Use intention revealing names
@@ -68,6 +61,14 @@ private final String recordId = "102";
 People quickly learn to ignore the prefix (or suffix) to see the meaningful part of the name. 
 The more we read the code, the less we see the prefixes. Eventually the prefixes become unseen 
 clutter and a marker of older code.
+
+```java
+String strName;         // 'str' is unnecessary — 'name' already tells you it’s a string.
+int iCount;             // 'i' is unnecessary — 'count' already implies a number.
+UserDTO userDto;        // If the context is clear, `user` is fine; `DTO` suffix is only useful in layers 
+						// where distinction is needed.
+
+```
 
 ## Class names
 

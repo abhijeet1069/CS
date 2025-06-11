@@ -1,5 +1,0 @@
-package com.satyam.interfacesAsTypes.animalTypes;
-
-public interface Animal {
-	public String toString();
-}

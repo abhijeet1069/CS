@@ -1,5 +1,0 @@
-package com.satyam.creationalPatterns.singleton;
-
-public class Singleton {
-
-}

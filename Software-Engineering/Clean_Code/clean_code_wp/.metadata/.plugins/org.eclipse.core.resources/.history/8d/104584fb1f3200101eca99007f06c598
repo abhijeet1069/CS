@@ -1,6 +1,0 @@
-package com.satyam.abstractFactory;
-
-public interface GUIFactory {
-    Button createButton();
-    Checkbox createCheckbox();
-}

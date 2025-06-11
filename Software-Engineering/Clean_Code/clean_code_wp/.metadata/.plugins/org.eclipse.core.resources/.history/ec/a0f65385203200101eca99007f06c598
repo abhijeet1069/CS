@@ -1,6 +1,0 @@
-package com.satyam.interfacesAsTypes;
-
-public interface Bird {
-	public String name;
-	
-}

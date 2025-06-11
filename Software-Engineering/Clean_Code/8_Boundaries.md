@@ -1,14 +1,19 @@
 # Boundaries
 
-## Learning test are better than free
+## Make clean boundaries or layers
 
-Not only are learning tests free, they have a positive return on investment. When there
-are new releases of the third-party package, we run the learning tests to see whether there
-are behavioral differences.
+A clean boundary should be supported by a set of outbound tests that exercise the interface the same way the
+production code does. 
+	Without these boundary tests to ease the migration, we might be tempted to stay with the old version longer 
+	than we should.
 
-Below code is a good example of a learning test, doesen't assert anything. For logging I used the logback
-framework, but tomorrow suppose some critical vulnerability comes up and I need to migrate to Log4J. This
-test will help me in testing the API, before shipping to prod.
+Boundary = the last layer where you can change the external dependency without impacting the rest of your codebase.
+
+For ex: out service class was a boundary. 
+SnakeYAML -> ServiceClass -> Rest of client code
+
+We could had ommitted Service class, but then SakeYAML would perforate into rest of client code.
+And now when snake YAML changed, your code has to change. 
 
 ```java
  // a simple learning test for logging
