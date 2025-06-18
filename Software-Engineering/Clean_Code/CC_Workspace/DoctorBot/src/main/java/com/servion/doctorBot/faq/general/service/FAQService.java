@@ -1,42 +1,22 @@
 package com.servion.doctorBot.faq.general.service;
 
-import java.io.InputStream;
 import java.util.List;
 import java.util.Optional;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.servion.doctorBot.exception.ConfigLoadException;
 import com.servion.doctorBot.exception.TagNotFoundException;
 import com.servion.doctorBot.faq.general.pojo.FAQConfig;
 import com.servion.doctorBot.faq.general.pojo.FAQEntry;
+import com.servion.doctorBot.util.JsonReader;
 
 public class FAQService {
 
 	private FAQConfig faqConfig;
-	
 	private String path;
 	
 	public FAQService(String path) {
 		this.path = path;
-		ObjectMapper mapper = new ObjectMapper();
-		try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(path)) {
-			if (inputStream == null) {
-				throw new ConfigLoadException("File not found: " + path);
-			}
-			faqConfig = mapper.readValue(inputStream, FAQConfig.class);
-		} 
-		catch (JsonParseException e) {
-			throw new ConfigLoadException(
-			        "JSON syntax error in "+path+" at line " +
-			        e.getLocation().getLineNr() + ", column " +
-			        e.getLocation().getColumnNr() + ": " +
-			        e.getOriginalMessage(), e
-			    );
-		} 
-		catch (Exception e) {
-			throw new ConfigLoadException(e.getMessage());
-		}
+		faqConfig = JsonReader.readJSON(path,FAQConfig.class);
 	}
 
 	public String getWorkingHours() {

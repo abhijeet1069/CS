@@ -31,6 +31,12 @@ before the production code that makes them pass. If you write tests after the pr
 code, then you may find the production code to be hard to test. You may decide that some
 production code is too hard to test. You may not design the production code to be testable.
 
+FIRST applicable for below tests:
+
+- Unit Tests : These are fast, isolated and run in memory. FIRST is a perfect fit.
+- Integration : Depends on DB and services - needs more setup to be repeatable. FIRST is a partial fit
+- End to End : Often slow, flaky, and dependent on external factors like browser, UI. FIRST is often violated
+
 
 ## Testing Pyramid
 
@@ -39,15 +45,15 @@ production code is too hard to test. You may not design the production code to b
 
 - End to End Tests : Here we test the entire application, and see that the application is meeting
 	business requirements. These tests can include performance testing, regression testing and security testing
-		(These take the longest time)
+		(These take the longest time). For ex : Selenium
 
 - Integration Tests : Integrate components and test
-	We don't test the entire application but only the various integration
+	We don't test the entire application but only the various integration. For ex, SpringBootTest, TestContainers 
 
 - Component Tests : Test each component individually like frontend or backend
 	For example, mocking database to verify the happy and unhappy paths of your application
 
-- Unit Tests : Base of the pyramid containing most tests
+- Unit Tests : Base of the pyramid containing most tests. For ex: JUnit, Mockito
 
 ## Use Test Driven Development
 

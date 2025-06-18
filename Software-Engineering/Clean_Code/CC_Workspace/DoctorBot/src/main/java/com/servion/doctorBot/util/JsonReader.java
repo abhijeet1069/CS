@@ -7,24 +7,16 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.servion.doctorBot.exception.ConfigLoadException;
 
-public class JsonReader<T>{
+public class JsonReader{
 	
-	private String path;
-	private Class<T> clazz;
-	
-	JsonReader(String path, Class<T> clazz){
-		this.path = path;
-		this.clazz = clazz;
-	}
-	
-	public T readJSON() {
-		try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(path)) {
+	public static <T> T readJSON(String path, Class<T> classArchetype) {
+		try (InputStream inputStream = JsonReader.class.getClassLoader().getResourceAsStream(path)) {
 			ObjectMapper mapper = new ObjectMapper();
             if (inputStream == null) {
                 throw new ConfigLoadException("File not found: " + path);
             }
 
-            return mapper.readValue(inputStream, clazz);
+            return mapper.readValue(inputStream, classArchetype);
 		}
 		catch (JsonParseException e) {
             throw new ConfigLoadException(

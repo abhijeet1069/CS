@@ -14,10 +14,7 @@ public class LogUtil {
     }
     
     public static void logErrorDetails(Exception e) {
-    	logError(e);
-        for (StackTraceElement element : e.getStackTrace()) {
-            logger.error("    at {}", element.toString());
-        }	
+        logger.error(e.getMessage(), e);	
     }
 
     public static void logInfo(String msg) {

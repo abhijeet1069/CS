@@ -46,12 +46,13 @@ public class FAQServiceTest {
 	}
 
 	@Test
-	void testFAQServiceWhenNoFileHasSyntaxErrors() {
+	void testFAQServiceWhenFileHasSyntaxErrors() {
 		try {
-			new FAQService("bad-faq.json");	
+			new FAQService("faq/general/bad-faq.json");	
 		}
 		catch(Exception e) {
 			LogUtil.logError(e);
+			LogUtil.logErrorDetails(e);
 			assertTrue(e.getMessage().contains("Unrecognized field \"topic12\" "));
 		}
 	}
@@ -59,7 +60,7 @@ public class FAQServiceTest {
 	@Test
 	void testFAQServiceWithNoWorkingHoursTag() {
 		try {
-			FAQService faq = new FAQService("bad-faq-with-noworkinghours.json");
+			FAQService faq = new FAQService("faq/general/bad-faq-with-noworkinghours.json");
 			faq.getWorkingHours();
 		}
 		catch(Exception e) {

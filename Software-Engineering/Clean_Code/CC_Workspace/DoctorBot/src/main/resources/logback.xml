@@ -6,7 +6,7 @@
 
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <!-- %d = date, %i = index -->
-            <!-- Example: logs/app.2025-05-13.0.log.zip -->
+            <!-- Example: logs/app.2025-05-13.0.log -->
             <fileNamePattern>logs/app.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <maxFileSize>5MB</maxFileSize>
             <maxHistory>30</maxHistory> <!-- Retain logs for 30 days -->
