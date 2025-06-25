@@ -1,5 +1,0 @@
-logging:
-  level:
-   root: INFO
-   org.springframework: WARN
-   org.hibernate: ERROR

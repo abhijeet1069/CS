@@ -1,5 +1,0 @@
-10-06-2025 17:51:36.135 INFO  [main] - FAQServiceTest.setup()         : ======= Starting FAQServiceTest in DoctorBot Test Suite =======
-10-06-2025 17:51:36.469 ERROR [main] - FAQServiceTest.testFAQServiceWithNoWorkingHoursTag() : [TagNotFoundException] Tag 'working_hours' not found in bad-faq-with-noworkinghours.json
-10-06-2025 17:51:36.511 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFileHasSyntaxErrors() : [ConfigLoadException] Unrecognized field "topic12" (class com.servion.doctorBot.faq.general.pojo.FAQEntry), not marked as ignorable (2 known properties: "answer", "topic"])
- at [Source: (BufferedInputStream); line: 4, column: 19] (through reference chain: com.servion.doctorBot.faq.general.pojo.FAQConfig["faq"]->java.util.ArrayList[0]->com.servion.doctorBot.faq.general.pojo.FAQEntry["topic12"])
-10-06-2025 17:51:36.516 ERROR [main] - FAQServiceTest.testFAQServiceWhenNoFilePresent() : [ConfigLoadException] File not found: nonexistent.json

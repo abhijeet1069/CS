@@ -16,3 +16,7 @@ When you do move to algorithms, you’ll:
 	•	Solve harder problems faster
 	•	Understand the why behind tricks
 	•	Gain confidence in proofs and correctness
+
+## Nature of Maths
+
+In Maths patterns come first, formal language comes later to describe, justiry and systematize those patterns.
