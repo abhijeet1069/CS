@@ -10,4 +10,4 @@ https://docs.google.com/spreadsheets/d/1mv_DwpP4VmSdw6ApKYi89PbnNv25fvqbhRIbkDx5
 
 ## Software Engineering
 
-[Clean Code](./Software-Engineering/Uncle Bob)
+[Clean Code](https://github.com/abhijeet1069/CS/tree/main/Software-Engineering/Uncle%20Bob)
