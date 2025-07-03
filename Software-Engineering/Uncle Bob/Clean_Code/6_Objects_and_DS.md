@@ -9,54 +9,8 @@ to their objects, exposing their private variables as if they were public?
 ## Law of Demeter (LoD)
 
 The Law of Demeter, also called the principle of least knowledge, is a design guideline for building 
-more maintainable and loosely coupled object-oriented code.
+more maintainable and loosely coupled object-oriented code. This also helps to prevent transitive navigation.
 
-- A method can call:
-	Its own methods
-	
-	```java
-	public void process() {
-    validate(); 	//internal helper methods or behaviors for process()
-    save();
-	}
-
-	private void validate() { ... }
-	private void save() { ... }
-
-	```
-- Methods of objects passed as arguments
-	
-	```java
-	public void process(Data data) {
-		data.clean();
-	}
-	```
-	
-- Methods of objects it created
-	
-	```java
-	public void process() {
-    Logger logger = new Logger();
-    logger.log("Processing started");
-	}
-
-	```
-	
-- Methods of its own fields (direct dependencies)
-	
-	```java
-	private final Repository repository;
-
-	public Service(Repository repository) {
-		this.repository = repository;
-	}
-
-	public void save(Data data) {
-		repository.save(data);
-	}
-	
-	```
-	
 ```java
 
 //Bad
@@ -125,7 +79,55 @@ public class Main {
     }
 }
 
+
 ```
+- A method can call:
+	Its own methods
+	
+	```java
+	public void process() {
+    validate(); 	//internal helper methods or behaviors for process()
+    save();
+	}
+
+	private void validate() { ... }
+	private void save() { ... }
+
+	```
+- Methods of objects passed as arguments
+	
+	```java
+	public void process(Data data) {
+		data.clean();
+	}
+	```
+	
+- Methods of objects it created
+	
+	```java
+	public void process() {
+    Logger logger = new Logger();
+    logger.log("Processing started");
+	}
+
+	```
+	
+- Methods of its own fields (direct dependencies)
+	
+	```java
+	private final Repository repository;
+
+	public Service(Repository repository) {
+		this.repository = repository;
+	}
+
+	public void save(Data data) {
+		repository.save(data);
+	}
+	
+	```
+	
+
 
 ## Don't put business logic into your data Structures
 

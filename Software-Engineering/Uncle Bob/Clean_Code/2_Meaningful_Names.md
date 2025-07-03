@@ -1,6 +1,44 @@
 # Clean Code by Robert Cecil Martin
 
-For coding, ratio of time spent reading vs. writing is well over 10:1.
+Clean code is not written by following a set of rules. You don’t become a software craftsman by learning
+a list of heuristics. Professionalism and craftsmanship come from values that drive
+disciplines.
+
+## Choose Descrptive names
+
+Don’t be too quick to choose a name. Make sure the name is descriptive. Remember that
+meanings tend to drift as software evolves, so frequently reevaluate the appropriateness of
+the names you choose.
+    This is not just a “feel-good” recommendation. Names in software are 90 percent of
+what make software readable. You need to take the time to choose them wisely and keep
+them relevant. Names are too important to treat carelessly.
+
+## Choose Names at the Appropriate Level of Abstraction
+
+Don’t pick names that communicate implementation; choose names the reflect the level of
+abstraction of the class or function you are working in.
+
+```java
+public interface Modem{
+    boolean dial(String phoneNumber); // Bad: what if modem is not a dial up modem
+}
+
+public interface Modem{
+    boolean connect(String connectionLocator); // Better
+}
+
+```
+
+## Use Standard nomenclature where possible
+
+In Java, for example, functions that convert
+objects to string representations are often named toString(). It is better to follow conventions
+like these than to invent your own.
+
+## Use long names for long scopes
+
+The length of a name should be related to the length of the scope. You can use very short
+variable names for tiny scopes, but for big scopes you should use longer and precise names.
 
 ## Use intention revealing names
 
@@ -34,7 +72,27 @@ customerInfo is indistinguishable from customer, accountData is indistinguishabl
 and theMessage is indistinguishable from message. Distinguish names in such a way that the reader 
 knows what the differences offer.
 
-## Use pronouneable names
+## Names should descrbe side effects
+
+Names should describe everything that a function, variable, or class is or does. Don’t hide
+side effects with a name. Don’t use a simple verb to describe a function that does more
+than just that simple action.
+
+```java
+
+public ObjectOutputStream getOos() throws IOException {
+    if (m_oos == null) {
+        m_oos = new ObjectOutputStream(m_socket.getOutputStream());
+    }
+    return m_oos;
+}
+
+// This function does a bit more than get an “oos”; it creates the “oos” if it hasn’t been created
+// already. Thus, a better name might be createOrReturnOos().
+```
+
+
+## Use pronounceable names
 
 ```java
 
@@ -69,6 +127,12 @@ UserDTO userDto;        // If the context is clear, `user` is fine; `DTO` suffix
 						// where distinction is needed.
 
 ```
+
+## Avoid Encodings
+
+Names should not be encoded with type or scope information. Prefixes such as m_ or f
+are useless in today’s environments. Also project and/or subsystem encodings such as
+vis_ (for visual imaging system) are distracting and redundant.
 
 ## Class names
 

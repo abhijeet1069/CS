@@ -108,8 +108,64 @@ Does too much; hard to test and maintain.
 
 ## Open closed principle
 
+(Prefer Polymorphism to If/Else or Switch/Case)
 Classes should be open for extension but closed for modification.
 In an ideal system, we incorporate new features by extending the system, not by making modifications to existing code.
+
+```java
+// Violates OCP, since not scalable.
+public class TollCalculator {
+    public int calculateToll(String vehicleType) {
+        switch (vehicleType) {
+            case "car": return 60;
+            case "truck": return 120;
+            case "bus": return 100;
+            case "bike": return 30;
+            default: return 50;
+        }
+    }
+}
+
+//better design : follows OCP
+public interface Vehicle {
+    int calculateToll();
+}
+
+public class Car implements Vehicle {
+    public int calculateToll() {
+        return 60;
+    }
+}
+
+public class Truck implements Vehicle {
+    public int calculateToll() {
+        return 120;
+    }
+}
+
+public class Bus implements Vehicle {
+    public int calculateToll() {
+        return 100;
+    }
+}
+
+public class Bike implements Vehicle {
+    public int calculateToll() {
+        return 30;
+    }
+}
+
+public class TollService {
+    public int getToll(Vehicle vehicle) {
+        return vehicle.calculateToll();
+    }
+}
+
+Vehicle myVehicle = new Truck();
+TollService tollService = new TollService();
+int toll = tollService.getToll(myVehicle); // returns 120
+
+```
 
 ## Dependency Inversion Principle
 

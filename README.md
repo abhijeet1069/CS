@@ -6,7 +6,7 @@
 
 Proof of all exercises completed
 
-https://docs.google.com/spreadsheets/d/1mv_DwpP4VmSdw6ApKYi89PbnNv25fvqbhRIbkDx5D2M/edit?usp=sharing
+[Discrete Maths sheet](https://docs.google.com/spreadsheets/d/1mv_DwpP4VmSdw6ApKYi89PbnNv25fvqbhRIbkDx5D2M/edit?usp=sharing)
 
 ## Software Engineering
 

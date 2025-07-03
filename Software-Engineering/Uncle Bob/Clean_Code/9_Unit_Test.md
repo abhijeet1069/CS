@@ -87,6 +87,34 @@ void testAddTwoNumbers() {
 
 ## Test Single concept per test
 
+## Tests
+
+### Insufficient Tests
+
+A test suite should test everything that could possibly break.
+The tests are insufficient so long as there are conditions that have not been explored by the
+tests or calculations that have not been validated.
+
+### Use a coverage tool
+
+Coverage tools reports gaps in your testing strategy. They make it easy to find modules,
+classes, and functions that are insufficiently tested.
+
+### Don't skip trivial tests
+
+They are easy to write and their documentary value is higher than the cost to produce
+them.
+
+### Tests Boundary Conditions
+
+Take special care to test boundary conditions. We often get the middle of an algorithm
+right but misjudge the boundaries.
+
+### Exhaustively Test Near Bugs
+
+Bugs tend to congregate. When you find a bug in a function, it is wise to do an exhaustive
+test of that function. You’ll probably find that the bug was not alone.
+
 ## Conclusion
 
 The code within the testing API does have a different set of engineering standards than production

@@ -58,6 +58,35 @@ compute(10, 5, res);
 Boolean arguments loudly declare that the function does more than one thing. They are
 confusing and should be eliminated.
 
+```java
+public int calculateWeeklyPay(boolean overtime) {
+    int tenthRate = getTenthRate();
+    int tenthsWorked = getTenthsWorked();
+    int straightTime = Math.min(400, tenthsWorked);
+    int overTime = Math.max(0, tenthsWorked - straightTime);
+    int straightPay = straightTime * tenthRate;
+    double overtimeRate = overtime ? 1.5 : 1.0 * tenthRate; //Bad : overtime working as a selection
+    int overtimePay = (int)Math.round(overTime*overtimeRate);
+    return straightPay + overtimePay;
+}
+
+public int overTimePay() {
+    int overTimeTenths = Math.max(0, getTenthsWorked() - 400);
+    int overTimePay = overTimeBonus(overTimeTenths);
+    return straightPay() + overTimePay;
+}
+
+private int overTimeBonus(int overTimeTenths) {
+    double bonus = 0.5 * getTenthRate() * overTimeTenths;
+    return (int) Math.round(bonus);
+}
+
+public int straightPay() {
+    return getTenthsWorked() * getTenthRate();
+}
+
+```
+
 ## Dead function
 
 Methods that are never called should be discarded. Keeping dead code around is wasteful.
