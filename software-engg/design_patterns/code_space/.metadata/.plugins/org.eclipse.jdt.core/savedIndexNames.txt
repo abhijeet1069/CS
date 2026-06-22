@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/Users/satyam/Personal/CS/Software_Engineering/Design_Patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core
+2165124965.index
+309932330.index
+1865797976.index
+980048134.index
