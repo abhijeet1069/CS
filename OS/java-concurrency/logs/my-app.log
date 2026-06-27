@@ -1,0 +1,33 @@
+2026-06-27 17:43:34 [main] INFO  c.satyam.concurrency.join.JoinDemo - Hello World
+2026-06-27 17:50:24 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
+2026-06-27 17:50:24 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
+2026-06-27 17:50:27 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
+2026-06-27 17:58:14 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+
+==================== NEW RUN ====================
+
+2026-06-27 17:58:14 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
+2026-06-27 17:58:14 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
+2026-06-27 17:58:17 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
+2026-06-27 17:58:34 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+
+==================== NEW RUN ====================
+
+2026-06-27 17:58:34 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
+2026-06-27 17:58:34 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
+2026-06-27 17:58:37 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
+2026-06-27 18:00:18 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+
+==================== NEW RUN ====================
+
+2026-06-27 18:00:18 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
+2026-06-27 18:00:18 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
+2026-06-27 18:00:21 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
+2026-06-27 18:03:23 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+
+==================== NEW RUN ====================
+
+2026-06-27 18:03:23 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main waiting
+2026-06-27 18:03:23 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
+2026-06-27 18:03:26 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
+2026-06-27 18:03:26 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
