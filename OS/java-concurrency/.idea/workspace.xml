@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143caf32-7e0b-4ed6-913b-9f7d5e6c2f1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/JMM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/intro/passingArgs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/intro/returningResult/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/intro/start/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/intro/start/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/intro/start/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/join/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/lib/algs4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/src/main/java/com/algorithms/fundamentals/basicpm/Euclid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../algorithm/algorithms-rs-kw/src/test/java/com/algorithms/fundamentals/basicpm/EuclidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/Synchronized.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/synchronised/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/synchronised/ThreadSafeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/concurrency/synchronised/ThreadUnsafeCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/my-app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/my-app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../algorithm/Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../../algorithm/Algorithm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +55,7 @@
     "Application.JoinDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.com.satyam.concurrency.intro.returningResult.Main.executor": "Run",
+    "Application.com.satyam.concurrency.synchronised.Main.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,15 +64,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "configurable.group.other"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notes" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.satyam.concurrency.intro.returningResult" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JoinDemo">
+  <component name="RunManager" selected="Application.com.satyam.concurrency.synchronised.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.satyam.concurrency.intro.start.App" />
       <module name="java-concurrency" />
@@ -142,8 +129,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.satyam.concurrency.synchronised.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satyam.concurrency.synchronised.Main" />
+      <module name="java-concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satyam.concurrency.synchronised.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.satyam.concurrency.synchronised.Main" />
         <item itemvalue="Application.JoinDemo" />
         <item itemvalue="Application.com.satyam.concurrency.intro.returningResult.Main" />
         <item itemvalue="Application.Main" />

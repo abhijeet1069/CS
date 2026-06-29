@@ -1,33 +1,61 @@
-2026-06-27 17:43:34 [main] INFO  c.satyam.concurrency.join.JoinDemo - Hello World
-2026-06-27 17:50:24 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
-2026-06-27 17:50:24 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
-2026-06-27 17:50:27 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
-2026-06-27 17:58:14 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+2026-06-29 06:02:56 [main] INFO  c.s.concurrency.synchronised.Main - 
 
 ==================== NEW RUN ====================
 
-2026-06-27 17:58:14 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
-2026-06-27 17:58:14 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
-2026-06-27 17:58:17 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
-2026-06-27 17:58:34 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+2026-06-29 06:04:47 [main] INFO  c.s.concurrency.synchronised.Main - 
 
 ==================== NEW RUN ====================
 
-2026-06-27 17:58:34 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
-2026-06-27 17:58:34 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
-2026-06-27 17:58:37 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
-2026-06-27 18:00:18 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+2026-06-29 06:04:47 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 119483
+2026-06-29 06:15:02 [main] INFO  c.s.concurrency.synchronised.Main - 
 
 ==================== NEW RUN ====================
 
-2026-06-27 18:00:18 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
-2026-06-27 18:00:18 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
-2026-06-27 18:00:21 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
-2026-06-27 18:03:23 [main] INFO  c.satyam.concurrency.join.JoinDemo - 
+2026-06-29 06:15:02 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 116994
+2026-06-29 06:15:02 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 200000
+2026-06-29 06:15:29 [main] INFO  c.s.concurrency.synchronised.Main - 
 
 ==================== NEW RUN ====================
 
-2026-06-27 18:03:23 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main waiting
-2026-06-27 18:03:23 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker started
-2026-06-27 18:03:26 [Thread-0] INFO  c.satyam.concurrency.join.JoinDemo - Worker finished
-2026-06-27 18:03:26 [main] INFO  c.satyam.concurrency.join.JoinDemo - Main completed
+2026-06-29 06:15:29 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 139114
+2026-06-29 06:15:29 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 200000
+2026-06-29 09:15:13 [main] INFO  c.s.concurrency.synchronised.Main - 
+
+==================== NEW RUN ====================
+
+2026-06-29 09:15:13 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 121035
+2026-06-29 09:15:13 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 200000
+2026-06-29 09:15:47 [main] INFO  c.s.concurrency.synchronised.Main - 
+
+==================== NEW RUN ====================
+
+2026-06-29 09:15:47 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 112537
+2026-06-29 09:15:47 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 183832
+2026-06-29 09:21:56 [main] INFO  c.s.concurrency.synchronised.Main - 
+
+==================== NEW RUN ====================
+
+2026-06-29 09:21:56 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 118650
+2026-06-29 09:21:56 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 196228
+2026-06-29 09:21:56 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 196228
+2026-06-29 09:31:10 [main] INFO  c.s.concurrency.synchronised.Main - 
+
+==================== NEW RUN ====================
+
+2026-06-29 09:31:10 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 116163
+2026-06-29 09:31:10 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 199249
+2026-06-29 09:31:10 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 199249
+2026-06-29 09:31:33 [main] INFO  c.s.concurrency.synchronised.Main - 
+
+==================== NEW RUN ====================
+
+2026-06-29 09:31:33 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 116217
+2026-06-29 09:31:33 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 196240
+2026-06-29 09:31:33 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 196240
+2026-06-29 09:34:49 [main] INFO  c.s.concurrency.synchronised.Main - 
+
+==================== NEW RUN ====================
+
+2026-06-29 09:34:49 [main] INFO  c.s.concurrency.synchronised.Main - Final count  = 123976
+2026-06-29 09:34:49 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 200000
+2026-06-29 09:34:49 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 200000
