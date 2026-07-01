@@ -1,10 +1,14 @@
-# Synchronized
+# Synchronized Bug
 
-Synchronized gives mutual exclusion.
-
-> synchronized only works if every thread that accesses the same shared data synchronizes on the same lock.
+Synchronization is not about stopping threads. 
+It is about ensuring that every access to the same shared mutable state is coordinated 
+through the same lock.
 
 ## Bug
+
+It seems that we will apply synchronized method, and everything will resolve. 
+It isn't so, here which lock is being acquired by which object has to be noted.
+Instance methods have object based locks.
 
 ```java
 // concurrency just broke the correctness. Each time different answer
@@ -15,6 +19,7 @@ Synchronized gives mutual exclusion.
 public class ThreadSafeCounter {
     private static int count = 0;
 
+    //synchronized on object
     public synchronized void increment(){
         count++;
     }
@@ -35,7 +40,7 @@ static void useThreadSafeCounter() throws InterruptedException {
 
     Thread t2 = new Thread(()->{
         for(int i = 0; i < 100000;i++)
-            counter2.increment();
+            counter2.increment(); //one more object incremented the counter and lock was of no use
     });
 
     t1.start();
@@ -49,7 +54,7 @@ static void useThreadSafeCounter() throws InterruptedException {
 ```
 ## Fix
 
-We made the lock a class lock.
+We made the lock a class lock, since the count was static
 
 ```java
 // 2026-06-29 09:34:49 [main] INFO  c.s.concurrency.synchronised.Main - Thread safe final count  = 200000
