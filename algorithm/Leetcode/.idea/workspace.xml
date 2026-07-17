@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76f58be5-3aa0-41c0-ac1a-ceb7b4995ead" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/notes/arrays.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/src/main/java/com/leetcode/interview150/arrays/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode1069/src/test/java/com/leetcode/interview150/arrays/CandyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/arrays.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/contest/virtual1/ConcatWithReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/contest/virtual1/CountValidOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/graphs/bfs/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/graphs/helper/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/MergeSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/ProductOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RandomizedSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RemoveDuplicates2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/ZigzagConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/matrix/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/matrix/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/matrix/ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/slidingWindow/LongestSubstrWithoutRepeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/slidingWindow/MinSizeSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/TwoSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/contest/virtual1/CountValidOccurenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/graphs/helper/TreeNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStock2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/CandyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/GasStationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/HIndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/IntegerToRomanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/JumpGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/LengthOfLastWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/LongestCommonPrefixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/MajorityElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/ProductOfArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/RemoveDuplicates2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/RemoveDuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/RemoveElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/TrappingRainWaterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/ZigzagConversionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/matrix/RotateImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/matrix/SpiralMatrixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/slidingWindow/LongestSubstrWithoutRepeatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/slidingWindow/MinSizeSubarrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/IsSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/ThreeSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/TwoSum2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/ValidPalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/java-concurrency/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/java-concurrency/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/lib/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algorithms/fundamentals/basicpm/Euclid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/test/java/com/algorithms/fundamentals/basicpm/EuclidTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abhijeet1069&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abhijeet1069/CS.git&quot;,
+    &quot;accountId&quot;: &quot;daead887-3a97-47e4-bc8e-f5591a6f7fcf&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GBOA4lSHTOjMqSdGqcSFxgdHp5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CandyTest.candy.executor": "Run",
+    "JUnit.LongestSubstrWithoutRepeatTest.executor": "Run",
+    "JUnit.TrappingRainWaterTest.trap.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/satyam/Personal/CSE/algorithm/Leetcode/src/test/java/com/satyam",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.other"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/satyam" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/satyam" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.satyam.leetcode.interview150.array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TrappingRainWaterTest.trap">
+    <configuration name="CandyTest.candy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satyam.leetcode.interview150.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.array" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.array.CandyTest" />
+      <option name="METHOD_NAME" value="candy(int[],int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstrWithoutRepeatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satyam.leetcode.interview150.slidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.slidingWindow" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.slidingWindow.LongestSubstrWithoutRepeatTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrappingRainWaterTest.trap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satyam.leetcode.interview150.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.array" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.array.TrappingRainWaterTest" />
+      <option name="METHOD_NAME" value="trap(int[],int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
+        <item itemvalue="JUnit.LongestSubstrWithoutRepeatTest" />
+        <item itemvalue="JUnit.CandyTest.candy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76f58be5-3aa0-41c0-ac1a-ceb7b4995ead" name="Changes" comment="" />
+      <created>1783441348633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783441348633</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
