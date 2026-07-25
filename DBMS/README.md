@@ -1,7 +1,5 @@
 # DBMS Topics for Interviews (Backend Focus)
 
-Read Chapter 13-18 from Database System Concepts.
-
 ## 🎯 Core High-ROI Topics
 
 ### 1. Data Modeling & Normalization

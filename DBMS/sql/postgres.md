@@ -1,6 +1,7 @@
 # PostgreSQL
 
-PostgreSQL is a powerful, open-source, client-server relational database system with strong support for SQL standards, data integrity, and advanced features.
+PostgreSQL is a powerful, open-source, client-server relational database system with strong support for SQL standards, 
+data integrity, and advanced features.
 
 Think of PostgreSQL not as a replacement for fopen() (like SQLite), but as a full database server like Oracle or MySQL.
 

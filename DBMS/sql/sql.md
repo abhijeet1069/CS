@@ -38,6 +38,27 @@ SELECT * FROM users ORDER BY age DESC;
 SELECT * FROM users LIMIT 5;
 ```
 
+## Multiple OR
+
+```sql
+-- shorthand for mutiple OR
+WHERE department IN ('IT', 'HR', 'Sales');
+```
+
+## Comparing NULL
+
+```sql
+-- we don't say = null
+WHERE referee_id IS NULL
+```
+
+## String length
+
+```sql
+SELECT LENGTH('Hello');
+
+```
+
 ## Update data
 
 ```sql

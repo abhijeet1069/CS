@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143caf32-7e0b-4ed6-913b-9f7d5e6c2f1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/synchronized.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Synchronized.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/synchronized-bug.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../algorithm/Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../../algorithm/Algorithm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

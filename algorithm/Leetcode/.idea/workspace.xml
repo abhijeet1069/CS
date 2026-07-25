@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76f58be5-3aa0-41c0-ac1a-ceb7b4995ead" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/algorithms_roadmap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/implementation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/hashmap/WordPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/slidingWindow/SubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/hashmap/WordPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/slidingWindow/SubStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DBMS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBMS/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DBMS/book.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DBMS/relational-algebra/relational-algebra.md" beforeDir="false" />
@@ -27,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/../LeetCode1069/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode1069/src/main/java/com/leetcode/interview150/arrays/Candy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode1069/src/test/java/com/leetcode/interview150/arrays/CandyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/encodings.xml" beforeDir="false" />
@@ -427,8 +420,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
       </set>
     </attachedChunks>
   </component>
