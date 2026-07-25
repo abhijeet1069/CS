@@ -5,83 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76f58be5-3aa0-41c0-ac1a-ceb7b4995ead" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/notes/arrays.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/src/main/java/com/leetcode/interview150/arrays/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode1069/src/test/java/com/leetcode/interview150/arrays/CandyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/arrays.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/contest/virtual1/ConcatWithReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/contest/virtual1/CountValidOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/graphs/bfs/SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/graphs/helper/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/MergeSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/ProductOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RandomizedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RemoveDuplicates2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/array/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/matrix/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/matrix/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/matrix/ValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/slidingWindow/LongestSubstrWithoutRepeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/slidingWindow/MinSizeSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/TwoSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/twoPointers/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/contest/virtual1/CountValidOccurenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/graphs/helper/TreeNodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStock2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/BestTimeToBuyAndSellStockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/CandyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/GasStationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/HIndexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/IntegerToRomanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/JumpGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/LengthOfLastWordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/LongestCommonPrefixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/MajorityElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/ProductOfArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/RemoveDuplicates2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/RemoveDuplicatesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/RemoveElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/TrappingRainWaterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/array/ZigzagConversionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/matrix/RotateImageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/matrix/SpiralMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/slidingWindow/LongestSubstrWithoutRepeatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/slidingWindow/MinSizeSubarrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/IsSubsequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/ThreeSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/TwoSum2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/twoPointers/ValidPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/algorithms_roadmap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/implementation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/hashmap/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/leetcode/interview150/slidingWindow/SubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/hashmap/WordPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/leetcode/interview150/slidingWindow/SubStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBMS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBMS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBMS/book.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBMS/relational-algebra/relational-algebra.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBMS/sql/postgres.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBMS/sql/postgres.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DBMS/sql/sql.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../DBMS/sql/sql.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OS/java-concurrency/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/java-concurrency/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/notes/arrays.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/src/main/java/com/leetcode/interview150/arrays/Candy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode1069/src/test/java/com/leetcode/interview150/arrays/CandyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/encodings.xml" beforeDir="false" />
@@ -89,8 +35,222 @@
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/lib/algs4.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algorithms/fundamentals/basicpm/Euclid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/test/java/com/algorithms/fundamentals/basicpm/EuclidTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algo/fund/basic/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algo/fund/basic/DijkstraTwoStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algo/fund/basic/Euclid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algo/fund/basic/Flips.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algo/fund/basic/GeometricObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/main/java/com/algo/fund/basic/MathProcessing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/test/java/com/algo/fund/basic/BinarySearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/test/java/com/algo/fund/basic/DijkstraTwoStackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/test/java/com/algo/fund/basic/EuclidTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithms-rs-kw/src/test/java/com/algo/fund/basic/MathProcessingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_architecture/cohesion.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_architecture/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_architecture/solid.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/TDD.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/boundaries.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/classes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/comments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/emergence.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/error_handling.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/formatting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/functions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/img/anti_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/img/dependency_inversion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/meaningful_names.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/objects_and_ds.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/smells_and_heuristics.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/systems.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/clean_code/unit_test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/ChainOfResponsibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/Command.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/Observer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/State.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/Strategy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/Template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/Visitor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/behavioral/img/visitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.lock_info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.buildship.core/gradle/versions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/1e/0094755ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/22/c00e09d7d75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/38/e045755ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/7a/b0e708d7d75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/8b/f06c755ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/95/a0c008d7d75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/ae/f16c755ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/c1/805b745ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/c8/d01e755ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/e2/a03c48d0d75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/e9/e145755ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.history/fc/40bf735ad75e001013d296d1423a7295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.projects/DesignPatterns/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.projects/DesignPatterns/.indexes/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.projects/DesignPatterns/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.projects/DesignPatterns/org.eclipse.egit.core/GitProjectData.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.projects/DesignPatterns/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/2165124965.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/309932330.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/980048134.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.m2e.core/DesignPatterns.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.m2e.jdt/DesignPatterns.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.wildwebdeveloper.xml/system-catalog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/chainOfResponsibility/DebugLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/chainOfResponsibility/ErrorLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/chainOfResponsibility/InfoLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/chainOfResponsibility/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/chainOfResponsibility/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/command/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/command/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/command/RemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/command/TurnOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/command/TurnOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/observer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/observer/NewsAgency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/observer/NewsChannelA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/observer/NewsChannelB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/observer/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/state/Fan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/state/FanState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/state/HighState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/state/LowState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/state/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/state/OffState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/interpreters/AddExpr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/interpreters/Expr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/interpreters/Interpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/interpreters/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/interpreters/NumberExpr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/interpreters/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/placement/College.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/placement/CompanyHRVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/placement/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/placement/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/placement/StudentElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/placement/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/simple/AreaVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/simple/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/simple/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/simple/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/simple/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/main/java/com/designPatterns/behavior/visitor/simple/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/src/test/java/com/designPatterns/behavior/visitor/simple/AreaVisitorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/chainOfResponsibility/DebugLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/chainOfResponsibility/ErrorLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/chainOfResponsibility/InfoLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/chainOfResponsibility/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/chainOfResponsibility/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/command/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/command/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/command/RemoteControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/command/TurnOffCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/command/TurnOnCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/observer/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/observer/NewsAgency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/observer/NewsChannelA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/observer/NewsChannelB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/observer/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/state/Fan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/state/FanState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/state/HighState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/state/LowState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/state/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/state/OffState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/interpreters/AddExpr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/interpreters/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/interpreters/Interpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/interpreters/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/interpreters/NumberExpr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/interpreters/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/placement/College.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/placement/CompanyHRVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/placement/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/placement/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/placement/StudentElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/placement/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/simple/AreaVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/simple/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/simple/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/simple/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/simple/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/classes/com/designPatterns/behavior/visitor/simple/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/code_space/DesignPatterns/target/test-classes/com/designPatterns/behavior/visitor/simple/AreaVisitorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/enterprise/IOC.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/enterprise/MVC.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../software-engg/design_patterns/enterprise/img/mvc.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,27 +289,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CandyTest.candy.executor": "Run",
-    "JUnit.LongestSubstrWithoutRepeatTest.executor": "Run",
-    "JUnit.TrappingRainWaterTest.trap.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/satyam/Personal/CSE/algorithm/Leetcode/src/test/java/com/satyam",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.other"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CandyTest.candy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LongestSubstrWithoutRepeatTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SubStringTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SubStringTest.findSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SubStringTest.quadloop.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TrappingRainWaterTest.trap.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WordPatternTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WordPatternTest.splitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WordPatternTest.wordPattern.[3] false, abba, dog dog dog dog.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WordPatternTest.wordPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/satyam/Personal/CSE/algorithm/Leetcode/src/test/java/com/satyam&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.other&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/satyam" />
@@ -159,27 +326,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.satyam.leetcode.interview150.hashmap" />
+      <recent name="com.satyam.leetcode.interview150.slidingWindow" />
       <recent name="com.satyam.leetcode.interview150.array" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrappingRainWaterTest.trap">
-    <configuration name="CandyTest.candy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.satyam.leetcode.interview150.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.array" />
-      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.array.CandyTest" />
-      <option name="METHOD_NAME" value="candy(int[],int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubstrWithoutRepeatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SubStringTest.quadloop">
+    <configuration name="SubStringTest.quadloop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -188,41 +341,94 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.slidingWindow" />
-      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.slidingWindow.LongestSubstrWithoutRepeatTest" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.slidingWindow.SubStringTest" />
+      <option name="METHOD_NAME" value="quadloop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satyam.leetcode.interview150.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.hashmap.WordPatternTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWaterTest.trap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordPatternTest.splitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.satyam.leetcode.interview150.array.*" />
+          <option name="PATTERN" value="com.satyam.leetcode.interview150.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.array" />
-      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.array.TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap(int[],int)" />
+      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.hashmap.WordPatternTest" />
+      <option name="METHOD_NAME" value="splitTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordPatternTest.wordPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satyam.leetcode.interview150.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.hashmap.WordPatternTest" />
+      <option name="METHOD_NAME" value="wordPattern(boolean,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordPatternTest.wordPattern.[3] false, abba, dog dog dog dog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satyam.leetcode.interview150.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.hashmap" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.hashmap.WordPatternTest" />
+      <option name="METHOD_NAME" value="wordPattern(boolean,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:com.satyam.leetcode.interview150.hashmap.WordPatternTest]/[test-template:wordPattern(boolean, java.lang.String, java.lang.String)]/[test-template-invocation:#3]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
-        <item itemvalue="JUnit.LongestSubstrWithoutRepeatTest" />
-        <item itemvalue="JUnit.CandyTest.candy" />
+        <item itemvalue="JUnit.SubStringTest.quadloop" />
+        <item itemvalue="JUnit.WordPatternTest" />
+        <item itemvalue="JUnit.WordPatternTest.wordPattern.[3] false, abba, dog dog dog dog" />
+        <item itemvalue="JUnit.WordPatternTest.wordPattern" />
+        <item itemvalue="JUnit.WordPatternTest.splitTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
       </set>
     </attachedChunks>
   </component>
