@@ -59,10 +59,45 @@ public class BinarySearchTree {
         return 1 + countNodes(node.left) + countNodes(node.right);
     }
 
-    public int countLeaves(TreeNode node){
+    public int countLeaves(){
+        return countLeaves(root);
+    }
+
+    private int countLeaves(TreeNode node){
         if(node == null)
             return 0;
 
-        if(node.left == null && node.right == )
+        if(node.left == null && node.right == null)
+            return 1;
+
+        return countLeaves(node.left) + countLeaves(node.right);
+    }
+
+    public String inorder(){
+        StringBuilder sb = new StringBuilder();
+        inorder(root, sb);
+        return sb.toString().trim();
+    }
+
+    private void inorder(TreeNode node, StringBuilder sb){
+        if(node == null)
+            return;
+        inorder(node.left,sb);
+        sb.append(node.data).append(" ");
+        inorder(node.right,sb);
+    }
+
+    public String preorder(){
+        StringBuilder sb = new StringBuilder();
+        preorder(root, sb);
+        return sb.toString().trim();
+    }
+
+    private void preorder(TreeNode node, StringBuilder sb){
+        if(node == null)
+            return;
+        sb.append(node.data).append(" ");
+        preorder(node.left,sb);
+        preorder(node.right,sb);
     }
 }

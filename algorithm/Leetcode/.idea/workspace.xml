@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76f58be5-3aa0-41c0-ac1a-ceb7b4995ead" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/tree/tree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/tree/tree_roadmap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/algo/bst/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/satyam/algo/bst/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/satyam/algo/bst/BinarySearchTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DBMS/indexing/index.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/satyam/algo/bst/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/satyam/algo/bst/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -52,6 +50,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.BinarySearchTreeTest.executor": "Run",
+    "JUnit.BinarySearchTreeTest.testInsert.executor": "Run",
     "JUnit.CandyTest.candy.executor": "Run",
     "JUnit.LongestSubstrWithoutRepeatTest.executor": "Run",
     "JUnit.SubStringTest.executor": "Run",
@@ -92,54 +93,52 @@
       <recent name="$PROJECT_DIR$/notes/tree" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.satyam.algo.bst" />
       <recent name="com.satyam.leetcode.interview150.hashmap" />
       <recent name="com.satyam.leetcode.interview150.slidingWindow" />
       <recent name="com.satyam.leetcode.interview150.array" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubStringTest.quadloop">
-    <configuration name="SubStringTest.quadloop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinarySearchTreeTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satyam.algo.bst.Main" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.satyam.leetcode.interview150.slidingWindow.*" />
+          <option name="PATTERN" value="com.satyam.algo.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.slidingWindow" />
-      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.slidingWindow.SubStringTest" />
-      <option name="METHOD_NAME" value="quadloop" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.satyam.leetcode.interview150.hashmap.*" />
+          <option name="PATTERN" value="com.satyam.algo.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.hashmap.WordPatternTest" />
+      <option name="PACKAGE_NAME" value="com.satyam.algo.bst" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.algo.bst.BinarySearchTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPatternTest.splitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTreeTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.satyam.leetcode.interview150.hashmap.*" />
+          <option name="PATTERN" value="com.satyam.algo.bst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.satyam.leetcode.interview150.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="com.satyam.leetcode.interview150.hashmap.WordPatternTest" />
-      <option name="METHOD_NAME" value="splitTest" />
+      <option name="PACKAGE_NAME" value="com.satyam.algo.bst" />
+      <option name="MAIN_CLASS_NAME" value="com.satyam.algo.bst.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SubStringTest.quadloop" />
-        <item itemvalue="JUnit.WordPatternTest" />
-        <item itemvalue="JUnit.WordPatternTest.wordPattern.[3] false, abba, dog dog dog dog" />
+        <item itemvalue="JUnit.BinarySearchTreeTest" />
+        <item itemvalue="JUnit.BinarySearchTreeTest.testInsert" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WordPatternTest.wordPattern" />
-        <item itemvalue="JUnit.WordPatternTest.splitTest" />
+        <item itemvalue="JUnit.WordPatternTest.wordPattern.[3] false, abba, dog dog dog dog" />
       </list>
     </recent_temporary>
   </component>
